@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PerfectlyInternal</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on PerfectlyInternal</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
+    <image>
+      <title>PerfectlyInternal</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
     <lastBuildDate>Sun, 02 Mar 2025 17:17:54 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>Bevy particle sim</title>
+      <link>http://localhost:1313/posts/bevy-particle-sim/</link>
       <pubDate>Sun, 02 Mar 2025 17:17:54 -0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;what a post&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/bevy-particle-sim/</guid>
+      <description>&lt;h2 id=&#34;bevy-particle-sim&#34;&gt;Bevy particle sim&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bevyengine/bevy&#34;&gt;Bevy&lt;/a&gt; is a game engine written in Rust that I have taken a bit of a liking to, so &lt;a href=&#34;https://github.com/PerfectlyInternal/bevy-particle-life&#34;&gt;here&lt;/a&gt;&amp;rsquo;s a simple particle physics simulation writted using it. It takes advantage of Bevy&amp;rsquo;s simple and flexible ECS system to efficiently parallelize computations for all the particle interactions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Orbit Subsystem Library</title>
+      <link>http://localhost:1313/posts/orbit-subsystems/</link>
+      <pubDate>Sun, 02 Mar 2025 17:17:52 -0500</pubDate>
+      <guid>http://localhost:1313/posts/orbit-subsystems/</guid>
+      <description>&lt;h2 id=&#34;orbit-subsystem-library&#34;&gt;Orbit Subsystem Library&lt;/h2&gt;
+&lt;p&gt;During my time at &lt;a href=&#34;https://1360.ca/&#34;&gt;Orbit robotics&lt;/a&gt;, I recognized the need for a general-purpose library to simplify early robot coding.
+Most FRC robots use one or more of several common mechanisms, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pivoting arms&lt;/li&gt;
+&lt;li&gt;Telescoping arms&lt;/li&gt;
+&lt;li&gt;Flywheels&lt;/li&gt;
+&lt;li&gt;Rollers
+Since the code for these repeats every season, we developed &lt;a href=&#34;https://github.com/PerfectlyInternal/OrbitSubsystemsLib&#34;&gt;OrbitSubsystemLib&lt;/a&gt;, which handles boilerplate code and simple logic for these subsystems. This lets teams get to programming more advanced features, such as autonomous driving, earlier, and lets them compete at a higher level.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>This portfolio</title>
+      <link>http://localhost:1313/posts/portfolio/</link>
+      <pubDate>Sat, 01 Mar 2025 17:17:54 -0500</pubDate>
+      <guid>http://localhost:1313/posts/portfolio/</guid>
+      <description>&lt;h2 id=&#34;this-portfolio&#34;&gt;This portfolio&lt;/h2&gt;
+&lt;p&gt;This portfolio website was built with &lt;a href=&#34;https://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;, using the &lt;a href=&#34;https://adityatelange.github.io/hugo-PaperMod/&#34;&gt;PaperMod&lt;/a&gt; theme, and is hosted via GitHub Pages.
+Thank you to their respective developers for their contributions!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

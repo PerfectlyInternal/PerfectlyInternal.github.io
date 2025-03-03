@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on PerfectlyInternal</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on PerfectlyInternal</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
+    <image>
+      <title>PerfectlyInternal</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
     <lastBuildDate>Sun, 02 Mar 2025 17:17:54 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>Bevy particle sim</title>
+      <link>http://localhost:1313/posts/bevy-particle-sim/</link>
       <pubDate>Sun, 02 Mar 2025 17:17:54 -0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;what a post&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/bevy-particle-sim/</guid>
+      <description>&lt;h2 id=&#34;bevy-particle-sim&#34;&gt;Bevy particle sim&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bevyengine/bevy&#34;&gt;Bevy&lt;/a&gt; is a game engine written in Rust that I have taken a bit of a liking to, so &lt;a href=&#34;https://github.com/PerfectlyInternal/bevy-particle-life&#34;&gt;here&lt;/a&gt;&amp;rsquo;s a simple particle physics simulation writted using it. It takes advantage of Bevy&amp;rsquo;s simple and flexible ECS system to efficiently parallelize computations for all the particle interactions.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
