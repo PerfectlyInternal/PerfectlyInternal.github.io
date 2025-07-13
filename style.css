@@ -1,0 +1,105 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+@font-face {
+    font-family: '3270 Nerd Font'; /*a name to be used later*/
+    src: url('3270NerdFontMono-Regular.ttf'); /*URL to font*/
+}
+
+:root {
+    --night: #0D160B;
+    --russian-violet: #320E3B;
+    --green-yellow: #B2FD6D;
+    --selective-yellow: #FFB000;
+    --cosmic-latte: #FAF6E4;
+    --tropical-indigo: #9593D9;
+    --vista-blue: #7C90DB;
+}
+
+body {
+    font-family: "3270 Nerd Font";
+    font-size: 16pt;
+    line-height: 19pt;
+    color: var(--night);
+    background-color: var(--tropical-indigo);
+}
+
+a {
+    color: var(--green-yellow);
+}
+
+#container {
+    width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+#container > h1, #container > h1 a {
+    color: var(--cosmic-latte);
+    text-decoration: none;
+}
+#container > section {
+    padding: 15px;
+    background-color: var(--vista-blue);
+    border: 4px solid var(--russian-violet);
+    border-radius: 15px;
+    width: 900px;
+    float: right;
+    margin-left: 20px;
+}
+#container > nav {
+    float: left;
+    width: 200px;
+}
+#container > footer {
+    clear: left;
+    width: 900px;
+    text-align: center;
+}
+
+nav menu {
+    padding: 15px;
+    background-color: var(--vista-blue);
+    border: 4px solid var(--russian-violet);
+    border-radius: 15px;
+    list-style: none;
+    margin: 0;
+}
+nav menu li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+}
+nav menu a {
+    text-decoration: none;
+    font-size: 17pt;
+}
+
+article header time {
+    color: #6c8b9f;
+    font-style: italic;
+    float: right;
+}
+article h1, article h1 a {
+    color: var(--selective-yellow);
+    text-decoration: none;
+    font-size: 30px;
+}
+article h1 {
+    border-bottom: 1px solid var(--selective-yellow);
+}
+
+article h2 {
+    color: #b2fd6d;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: -6pt;
+}
+article h2:before {
+    content: "// ";
+}
+article h2:after {
+    content: " //";
+}
+
+article .fold {
+    display: none;
+}
